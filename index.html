@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<div class="root">
+		<div class="container">
+			<div class="start active">
+				<h>Hi, it's country flags quiz</h>
+				<form>
+					<p>Enter your login please</p>
+					<input type="text" minlength="2" required>
+					<p>Enter your password please</p>
+					<input type="text" minlength="2" required>
+					<button>Start</button>
+				</form>
+				<img src="./img/image 1.png" alt="">
+			</div>
+			<div class="quiz">
+				<div class="quiz__top">
+					<div class="quiz__counter">
+						2/10
+					</div>
+					<div class="quiz__timer">
+						15
+					</div>
+				</div>
+				<div class="question">
+					<img src="./img/Belarus.svg" alt="">
+					<h2>What's name of this country?</h2>
+					<div class="answers">
+						<button>Svalbard and Jan Mayen</button>
+						<button>Svalbard and Jan Mayen</button>
+						<button>Svalbard and Jan Mayen</button>
+						<button>Belarus</button>
+					</div>
+				</div>
+			</div>
+			<div class="end">
+				<div class="row">
+					<div class="l">
+						<h2>Congratulations!</h2>
+						<p>You finished this quiz</p>
+						<p class="end__result">You reached 3/10 points</p>
+						<div class="end__nav">
+							<button class="restart"><img src="./img/Vector.svg" alt="">
+								<p>Restart</p>
+							</button>
+							<button class="to-home"><img src="./img/Vector1.svg" alt="">
+								<p>Home</p>
+							</button>
+						</div>
+					</div>
+					<div class="r">
+						<ul>
+							<li>Name</li>
+							<li>Name</li>
+							<li>Name</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="./script.js"></script>
+</body>
+
+</html>
