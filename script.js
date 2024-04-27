@@ -172,7 +172,7 @@ function turnBtn(option) {
 	quizAnswersBtns.forEach(btn => btn.disabled = option)
 }
 
-fetch('./data.JSON')
+fetch('./data.json')
 	.then(response => response.json())
 	.then(JSON => { allQuestion = JSON["all-questions"] })
 
